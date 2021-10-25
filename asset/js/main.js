@@ -31,3 +31,10 @@ const team = [
     }
 
 ]
+
+for (let index = 0; index < team.length; index++) {
+    const member = team[index];
+    console.log('name: ', member.name);
+    console.log('role: ', member.role);
+    console.log('image: ', member.image);
+}
